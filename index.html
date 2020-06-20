@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imdb</title>
+    <link rel="shortcut icon" type="image/png" href="./icons8-imdb-48.png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="hamburger">
+      <div class="line">l</div>
+      <div class="line">l</div>
+      <div class="line">l</div>
+    </div>
+    <header>
+      <h3 class="text">
+        SearchMovies.com
+      </h3>
+    </header>
+    <main>
+      <div class="block">
+        <form id="form">
+          <input
+            type="search"
+            placeholder=" Search Movies"
+            name=""
+            class="ml-5 input"
+            id="search"
+          />
+        </form>
+      </div>
+      <div class="container" id="results"></div>
+      <div class="display-flex" id="movies"></div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
